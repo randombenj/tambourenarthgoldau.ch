@@ -28,6 +28,13 @@
             box-shadow: 0.4em 0 0 white, -0.4em 0 0 white;
             line-height: 1.4;
         }
+        .line-clamp-3 {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
     </style>
 </head>
 <body class="bg-white text-gray-800">
@@ -37,10 +44,10 @@
 
         <!-- Header and Navigation -->
         <header class="py-8">
-            <nav class="flex justify-between items-center">
+            <nav class="flex justify-between items-center max-h-12">
                 <!-- Logo -->
                 <div class="text-3xl font-extrabold text-gray-900">
-                    <img src="/logo.svg" alt="Tambourenverein Arth-Goldau Logo" class="h-16 w-auto">
+                    <img src="/logo.svg" alt="Tambourenverein Arth-Goldau Logo" class="h-20 w-auto mt-10">
                 </div>
                 <!-- Desktop Navigation Links -->
                 <div class="hidden md:flex items-center space-x-8 lg:space-x-12">
@@ -66,7 +73,7 @@
                     <!-- Left Column: Text Content -->
                     <div class="md:w-1/2 lg:w-5/12 text-center md:text-left relative z-20">
                         <p class="text-lg font-semibold text-[#7d172d] tracking-wider highlight">WIR SIND</p>
-                        <h1 class="text-5xl lg:text-6xl font-extrabold text-gray-900 mt-2 relative z-30 highlight">
+                        <h1 class="text-3xl sm:text-4xl lg:text-6xl font-extrabold text-gray-900 mt-2 relative z-30 highlight">
                             <span class="text-[#7d172d]">TAMBOURENVEREIN</span> <span class="text-[#a7a7a7]">ARTH-GOLDAU</span>
                         </h1>
                         <p class="mt-4 text-xl text-gray-600"></p>
@@ -161,18 +168,18 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 {{ range first 4 (where site.RegularPages "Type" "posts") }}
-                <article class="bg-gray-50 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                <article class="bg-gray-50 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 h-80 flex flex-col">
                     {{ if .Params.featured_image }}
-                    <div class="h-48 bg-gray-200">
+                    <div class="h-28 bg-gray-200 flex-shrink-0">
                         <img src="{{ .Params.featured_image }}" alt="{{ .Title }}" class="w-full h-full object-cover">
                     </div>
                     {{ else }}
-                    <div class="h-48 bg-[#7d172d] flex items-center justify-center">
-                        <span class="text-white text-2xl font-bold">{{ substr .Title 0 1 }}</span>
+                    <div class="h-28 bg-[#7d172d] flex-shrink-0">
+                        <!-- No text in placeholder -->
                     </div>
                     {{ end }}
 
-                    <div class="p-6">
+                    <div class="p-6 flex-1 flex flex-col">
                         <time class="text-sm text-gray-500 font-medium">
                             {{ .Date.Format "2. January 2006" }}
                         </time>
@@ -181,10 +188,10 @@
                                 {{ .Title }}
                             </a>
                         </h3>
-                        <p class="text-gray-600 text-sm leading-relaxed line-clamp-3">
-                            {{ .Summary }}
+                        <p class="text-gray-600 text-sm leading-relaxed line-clamp-3 mb-2">
+                            {{ .Content | plainify | truncate 40 "..." }}
                         </p>
-                        <a href="{{ .Permalink }}" class="inline-block mt-4 text-[#7d172d] font-semibold text-sm hover:underline">
+                        <a href="{{ .Permalink }}" class="inline-block text-[#7d172d] font-semibold text-sm hover:underline">
                             Weiterlesen →
                         </a>
                     </div>

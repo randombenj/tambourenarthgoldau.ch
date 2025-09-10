@@ -1,3 +1,7 @@
 baseURL = 'https://tambourenarthgoldau.ch'
 languageCode = 'de-CH'
 title = 'Tambourenverein Arth-Goldau'
+
+# Summary configuration
+summaryLength = 8  # Number of words in auto-generated summary
+hasCJKLanguage = false
