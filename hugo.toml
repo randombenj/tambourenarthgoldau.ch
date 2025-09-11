@@ -5,3 +5,30 @@ title = 'Tambourenverein Arth-Goldau'
 # Summary configuration
 summaryLength = 8  # Number of words in auto-generated summary
 hasCJKLanguage = false
+
+# SEO Configuration
+enableRobotsTXT = true
+enableGitInfo = true
+
+# Sitemap configuration
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+# Params for SEO
+[params]
+  description = 'Der Tambourenverein Arth-Goldau wurde 1993 gegründet. Wir sind eine Gruppe von rhythmusbegeisterten Kollegen die gerne zusammen Musik machen.'
+  author = 'Tambourenverein Arth-Goldau'
+  keywords = 'Tambourenverein, Arth-Goldau, Tambouren, Trommeln, Musik, Verein, Zentralschweiz'
+
+# Social media
+[params.social]
+  instagram = 'https://www.instagram.com/tambourenvereinarthgoldau/'
+  email = 'tambourenarthgoldau@gmail.com'
+
+# Markup configuration for better content rendering
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
