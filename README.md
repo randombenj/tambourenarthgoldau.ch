@@ -26,6 +26,6 @@ Page Bundles allow you to organize content and related images in a single folder
 
 ```bash
 # Create new Page Bundle
-hugo new posts/2024-10-15-my-new-post/index.md
+hugo new posts/$(date -u +%Y-%m-%d)-my-new-post/index.md
 ```
 
