@@ -246,7 +246,7 @@
                         <!-- Related Posts Sidebar -->
                         {{ $related := .Site.RegularPages.Related . | first 4 }}
                         {{ if $related }}
-                        <div class="bg-white rounded-lg lg:p-6 p-0 sticky top-8">
+                        <div class="bg-white rounded-lg lg:px-6 lg:pb-6 p-0 top-8">
                             <h3 class="text-xl font-bold text-gray-900 mb-6">Weitere News</h3>
                             <div class="space-y-4">
                                 {{ range $related }}
