@@ -372,7 +372,8 @@
                     // Filter out events with "Vereinsprobe" or "Probe" in the title
                     const filteredEvents = events.items.filter(e =>
                         !e.summary.includes('Vereinsprobe') &&
-                        !e.summary.includes('Probe')
+                        !e.summary.includes('Probe') &&
+                        !e.summary.includes('🎉')
                     );
 
                     if (filteredEvents.length > 0) {
