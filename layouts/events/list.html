@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Auftritte - Tambourenverein Arth-Goldau</title>
+    <meta name="title" content="Auftritte - Tambourenverein Arth-Goldau">
+    <meta name="description" content="Alle kommenden Auftritte des Tambourenverein Arth-Goldau. Konzerte, Feste und Events in der Zentralschweiz.">
+    <meta name="keywords" content="Tambourenverein Auftritte, Arth-Goldau Auftritte, Tambouren Events, Konzerte, Zentralschweiz">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="German">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tambourenarthgoldau.ch/events/">
+    <meta property="og:title" content="Auftritte - Tambourenverein Arth-Goldau">
+    <meta property="og:description" content="Alle kommenden Auftritte des Tambourenverein Arth-Goldau.">
+    <meta property="og:image" content="https://tambourenarthgoldau.ch/tambouren-arth-goldau.jpg">
+    <meta property="og:locale" content="de_CH">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://tambourenarthgoldau.ch/events/">
+    <meta property="twitter:title" content="Auftritte - Tambourenverein Arth-Goldau">
+    <meta property="twitter:description" content="Alle kommenden Auftritte des Tambourenverein Arth-Goldau.">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://tambourenarthgoldau.ch/events/">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-14KDTMLGT3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-14KDTMLGT3');
+    </script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .active-link {
+            color: #7d172d;
+        }
+        .nav-link:hover {
+            color: #7d172d;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Container for the entire page -->
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Header and Navigation -->
+        <header class="py-8">
+            <nav class="flex justify-between items-center max-h-12">
+                <!-- Logo -->
+                <div class="text-3xl font-extrabold text-gray-900">
+                    <a href="/">
+                        <img src="/logo.svg" alt="Tambourenverein Arth-Goldau Logo" class="h-20 w-auto mt-10">
+                    </a>
+                </div>
+                <!-- Desktop Navigation Links -->
+                <div class="hidden md:flex items-center space-x-8 lg:space-x-12">
+                    <a href="/#events" class="nav-link text-lg font-medium text-gray-600">Auftritte</a>
+                    <a href="/#news" class="nav-link text-lg font-medium text-gray-600">News</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-900 focus:outline-none">
+                        <svg id="menu-icon" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                        <svg id="close-icon" class="h-6 w-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </nav>
+
+            <!-- Mobile Navigation Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-16 bg-gray-50 border-t border-gray-200 py-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="/#events" class="nav-link text-lg font-medium text-gray-600 px-4 py-2 hover:bg-gray-100 rounded">Auftritte</a>
+                    <a href="/#news" class="nav-link text-lg font-medium text-gray-600 px-4 py-2 hover:bg-gray-100 rounded">News</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Hero Section -->
+            <section class="py-12 md:py-16">
+                <div class="text-left">
+                    <p class="text-sm font-semibold text-gray-500 tracking-widest">TERMINE</p>
+                    <h1 class="text-4xl lg:text-6xl font-extrabold text-gray-900 mt-2">
+                        Nächste Auftritte
+                    </h1>
+                    <p class="mt-4 text-xl text-gray-600">
+                        Alle kommenden Auftritte des Tambourenverein Arth-Goldau.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Events List Section -->
+            <section class="py-8 md:py-16">
+                <div id="events-container" class="space-y-4">
+                    <!-- Loading state -->
+                    <div id="events-loading" class="py-8 text-center">
+                        <p class="text-lg text-gray-500">Termine werden geladen...</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Back to Home -->
+            <section class="py-8 md:py-16 border-t border-gray-200">
+                <div class="text-center">
+                    <a href="/" class="inline-block text-[#7d172d] font-semibold text-lg hover:underline">
+                        ← Zurück zur Startseite
+                    </a>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <script type="text/javascript">
+        window.addEventListener("DOMContentLoaded", async () => {
+            // Mobile menu functionality
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const menuIcon = document.getElementById('menu-icon');
+            const closeIcon = document.getElementById('close-icon');
+
+            if (mobileMenuButton && mobileMenu && menuIcon && closeIcon) {
+                mobileMenuButton.addEventListener('click', () => {
+                    const isHidden = mobileMenu.classList.contains('hidden');
+
+                    if (isHidden) {
+                        mobileMenu.classList.remove('hidden');
+                        menuIcon.classList.add('hidden');
+                        closeIcon.classList.remove('hidden');
+                    } else {
+                        mobileMenu.classList.add('hidden');
+                        menuIcon.classList.remove('hidden');
+                        closeIcon.classList.add('hidden');
+                    }
+                });
+
+                // Close mobile menu when clicking on links
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        menuIcon.classList.remove('hidden');
+                        closeIcon.classList.add('hidden');
+                    });
+                });
+            }
+
+            // Google Calendar functionality
+            try {
+                const response = await fetch(`https://www.googleapis.com/calendar/v3/calendars/tambourenarthgoldau@gmail.com/events?key=AIzaSyAZWXK4_d9R-Ify_FBGJ_qxLrmfFYL11dA&timeMin=${new Date().toISOString()}&orderBy=startTime&singleEvents=true`);
+                if (!response.ok) {
+                    console.error('Failed to fetch events:', response);
+                    document.getElementById("events-container").innerHTML = `
+                        <div class="py-8 text-center">
+                            <p class="text-lg text-gray-500">Termine konnten nicht geladen werden.</p>
+                        </div>`;
+                    return;
+                }
+                const events = await response.json();
+
+                if (events.items && events.items.length > 0) {
+                    // Filter out events with "Vereinsprobe", "Probe" or 🎉 in the title
+                    const filteredEvents = events.items.filter(e =>
+                        !e.summary.includes('Vereinsprobe') &&
+                        !e.summary.includes('Probe') &&
+                        !e.summary.includes('🎉')
+                    );
+
+                    if (filteredEvents.length > 0) {
+                        document.getElementById("events-container").innerHTML = filteredEvents.map((e) =>
+                            `<div class="py-4 border-b border-gray-200">
+                                <div class="flex justify-between items-center">
+                                    <div class="flex-1">
+                                        <p class="text-sm text-gray-500 mb-1">
+                                            ${e.start.date ?
+                                                new Date(e.start.date).toLocaleDateString("de-CH", {weekday: 'short', month: 'short', day: 'numeric'}) :
+                                                new Date(e.start.dateTime).toLocaleDateString("de-CH", {weekday: 'short', month: 'short', day: 'numeric'})
+                                            }
+                                        </p>
+                                        <h3 class="text-lg font-medium text-gray-900 mb-1">${e.summary}</h3>
+                                        ${e.location ?
+                                            `<p class="text-sm text-gray-600 mb-1">
+                                                <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(e.location)}"
+                                                   target="_blank"
+                                                   rel="noopener noreferrer"
+                                                   class="text-[#7d172d] hover:underline flex items-center">
+                                                    <svg class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+                                                    </svg>
+                                                    ${e.location}
+                                                </a>
+                                            </p>` : ''
+                                        }
+                                        ${e.description ? `<p class="text-sm text-gray-600">${e.description}</p>` : ''}
+                                    </div>
+                                    <div class="text-right ml-4">
+                                        <p class="text-sm text-gray-500">
+                                            ${e.start.date ?
+                                                'Ganztägig' :
+                                                new Date(e.start.dateTime).toLocaleTimeString("de-CH", {hour: '2-digit', minute: '2-digit'}) +
+                                                ' - ' +
+                                                new Date(e.end.dateTime).toLocaleTimeString("de-CH", {hour: '2-digit', minute: '2-digit'})
+                                            }
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>`
+                        ).join("\n");
+                    } else {
+                        document.getElementById("events-container").innerHTML = `
+                            <div class="py-8 text-center">
+                                <p class="text-lg text-gray-500">Momentan sind keine Termine geplant.</p>
+                            </div>`;
+                    }
+                } else {
+                    document.getElementById("events-container").innerHTML = `
+                        <div class="py-8 text-center">
+                            <p class="text-lg text-gray-500">Momentan sind keine Termine geplant.</p>
+                        </div>`;
+                }
+            } catch (error) {
+                console.error('Error fetching calendar events:', error);
+                document.getElementById("events-container").innerHTML = `
+                    <div class="py-8 text-center">
+                        <p class="text-lg text-gray-500">Termine konnten nicht geladen werden.</p>
+                    </div>`;
+            }
+        });
+    </script>
+
+</body>
+</html>
