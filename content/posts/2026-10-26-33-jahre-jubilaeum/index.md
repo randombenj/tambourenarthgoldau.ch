@@ -1,15 +1,35 @@
 +++
 date = '2026-10-26T09:00:00+01:00'
 draft = false
-title = '33 Jahre Tambourenverein Arth-Goldau'
+title = 'Ein rhythmisches Feuerwerk zum 33. Geburtstag'
+author = 'Guido Bürgler'
 featured_image = '/posts/2026-10-26-33-jahre-jubilaeum/jubilaeum.jpg'
 +++
 
-# 33 Jahre Tambourenverein Arth-Goldau
+# Ein rhythmisches Feuerwerk zum 33. Geburtstag
+
+## Teil-Neuinstrumentierung des Tambourenvereins Arth-Goldau
 
 ![33 Jahre Tambourenverein Arth-Goldau](jubilaeum.jpg)
 
-Am Samstag, 24. Oktober 2026, feierte der Tambourenverein Arth-Goldau im Georgsheim in Arth sein Schnapszahl-Jubiläum. Herzlichen Dank allen Besucherinnen und Besuchern, Helferinnen und Helfern sowie unseren Sponsoren für den gelungenen Abend!
+**Mit einem fulminanten Jubiläumskonzert im vollbesetzten Georgsheim in Arth feierte der Tambourenverein Arth-Goldau sein Schnapszahl-Jubiläum. Zu Gast war die Ländlerformation BodäständiX, die zusammen mit den Jungtambouren das Publikum begeisterte.**
+
+Der 1993 gegründete Tambourenverein Arth-Goldau blickt auf eine bewegte Geschichte voller Rhythmus, Kameradschaft und musikalischer Höhepunkte zurück. Was einst im kleinen Kreis begann, ist heute eine feste und unverzichtbare Grösse im kulturellen Leben der Gemeinde Arth.
+
+### Vereinseigene Jungtambourenausbildung
+
+Das Schnapszahl-Jubiläum wurde am Samstag im ausverkauften Georgsheim ausgiebig gefeiert. Am Konzert unter dem Motto «Jetzt rigleds» wurden 13 neu revidierte Trommeln vorgestellt. Diese stammen vom ehemaligen Tambourenverein Küssnacht. «Es sind gute Instrumente, mit denen die Jungtambouren gerne musizieren», meinte Vereinspräsident Kuno Bürgi zur RigiPost. Er betonte die hohe Bedeutung der vereinseigenen Ausbildung für die Nachwuchsförderung. «Die Musikschule ist das tragende Fundament für die Zukunft unseres Vereins», so Bürgi.
+
+![Konzert mit den neuen Trommeln](konzert.jpg)
+*Mit den 13 neu angeschafften Trommeln machte die anspruchsvolle Show sichtlich Freude. Bild: Guido Bürgler*
+
+Die technische Leitung des anspruchsvollen Konzertes, das nicht nur musikalisch, sondern auch visuell beeindruckte, lag in den Händen von Philipp Gisler. Zur Aufführung gelangten unter anderem drei Eigenkompositionen, die Gisler zusammen mit Benj Fassbind geschrieben hatte. Dies waren der «Röhrenbeat», «Jonge Vlessen» und «Movin’ Cordon Bleu», bei welchem eine tolle Show mit präzisem taktvollem Schlägerwerfen gezeigt wurde. Ebenfalls für Begeisterung sorgte der «Röhrenbeat», der aus bekannten Technostücken arrangiert wurde, und für das Spiel mit Röhren umgeschrieben wurde. In der Formation «Special Force» traten auch ehemalige Tambouren auf.
+
+### Ländlermusik mit Trommlerbegleitung
+
+Im zweiten Konzertteil trat die versierte Ländlerformation «BodäständiX» auf. Sie interpretierte zusammen mit den Jungtambouren zum Beispiel das bekannte Stück «Zogä-n-am Bogä» und als Zugabe den Schottisch dr Rigitüüfel, wobei die jungen Tambouren mit ihren Chlefeli – statt Trommeln – den Rhythmus unterstützten. Anschliessend demonstrierten zwei junge Tanzpaare aus Illgau und Sisikon das in Innerschwyz bekannte «Gäuerlä» und «Bödälä» auf eindrückliche Weise. Mit spektakulären – «balzartigen» Sprüngen umwarben die Tänzer Michael Heinzer und Daniel Zwyer zum Takt der lüpfigen Musik ihre Tanzpartnerin. Diese überraschende Einlage zeigte dem Publikum auf wunderschöne Weise, wie eng die traditionelle «tänzige» Ländlermusik mit der taktvollen Musik der Tambouren verwandt ist. Dem Publikum gefiel das Gebotene ausgezeichnet, denn alle musikalischen Darbietungen wurden mit viel Applaus verdankt. Es forderte mit Nachdruck zwei Zugaben. Im Anschluss ans anderthalbstündige Konzert, an dem auch viele Familien anwesend waren, spielte BodäständiX zur Unterhaltung und zum Tanz auf. Das rundum gelungene Jubiläum hat gezeigt, dass der Tambourenverein Arth-Goldau auch nach 33 Jahren ein unverzichtbarer Eckpfeiler der regionalen Kulturszene ist.
+
+Herzlichen Dank allen Besucherinnen und Besuchern, Helferinnen und Helfern sowie unseren Sponsoren für den gelungenen Abend!
 
 <section class="relative py-12 md:py-16 my-8 overflow-hidden rounded-lg">
     <div class="absolute inset-0 bg-[#7d172d] rounded-lg shadow-2xl"></div>
